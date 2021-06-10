@@ -28,7 +28,7 @@ const Footer = () => {
             <FooterSubscription>
                 <FooterSubHeading>
                     Join our exclusive membership to
-                    receive the latest news nad trends
+                    receive the latest news and trends
                 </FooterSubHeading>
                 <FooterSubText>
                     You can unsubscribe at any time.

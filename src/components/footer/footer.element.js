@@ -17,12 +17,12 @@ export const FooterSubscription = styled.section`
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 24px;
+    margin: 24px 0;
     padding: 24px;
     color: #fff;
 `
 
-export const FooterSubHeading = styled.p`
+export const FooterSubHeading = styled.h2`
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida', 'Grande', 'Lucida Sans' Arial, Helvetica, sans-serif, sans-serif;
     margin-bottom: 24px;
     font-size: 24px;

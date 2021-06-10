@@ -24,6 +24,7 @@ const Navbar = () => {
 
 
     const handleClick = () => setClick(!click)
+    const closeMobileMenu = () => setClick(false)
 
     const showButton = () => {
         if (window.innerWidth <= 960) {
@@ -43,7 +44,7 @@ const Navbar = () => {
             <IconContext.Provider value={{ color: '#fff' }} >
                 <Nav>
                     <NavbarContainer>
-                        <NavLogo to="/">
+                        <NavLogo to="/" onClick={closeMobileMenu}>
                             <NavIcon />
                         Ultra kill
                         </NavLogo>
@@ -74,6 +75,7 @@ const Navbar = () => {
                                             <Button primary>SIGN UP</Button>
                                         </NavBtnLink>
                                     ) : (
+                                        //todo: create later
                                         <NavBtnLink to="/sign-in">
                                             <Button fontBig primary>SIGN IN</Button>
                                         </NavBtnLink>
